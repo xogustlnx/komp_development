@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "@/lib/firebaseConfig";
 
 const ContactForm = () => {
   const [step, setStep] = useState(1);
@@ -87,19 +89,22 @@ const ContactForm = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (validateStep2()) {
-      // 여기에 폼 데이터를 처리하는 로직 추가
-      console.log(formData);
-      setIsSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        outsourcingType: "",
-        serviceType: "",
-        inquiry: "",
-      });
-      setStep(1);
-      setErrors({});
+      try {
+        await addDoc(collection(db, "contacts"), formData); // 데이터 저장
+        setIsSubmitted(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          outsourcingType: "",
+          serviceType: "",
+          inquiry: "",
+        });
+        setStep(1);
+        setErrors({});
+      } catch (error) {
+        console.error("Error adding document: ", error); // 에러 확인
+      }
     }
   };
 

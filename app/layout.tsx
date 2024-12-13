@@ -7,9 +7,9 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "팀 komp - 정부사업을 통한 외주 서비스",
+  title: "팀 komp",
   description:
-    "정부사업을 통해 나온 아이디어들을 구현하는 외주 전문 팀 komp의 웹사이트입니다.",
+    " 아이디어를 실현하고 완벽한 솔루션을 제공하는 믿을 수 있는 개발 파트너",
 };
 
 export default function RootLayout({
