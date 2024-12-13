@@ -13,6 +13,21 @@ export const metadata = {
   icons: {
     icon: "/favicon.png",
   },
+  openGraph: {
+    title: "Team Komp | 당신의 상상을 실현할 최고의 개발 파트너",
+    description:
+      "아이디어를 실현할 완벽한 솔루션을 제공하는 신뢰할 수 있는 개발 파트너",
+    url: "https://teamkomp.com", // 웹사이트 URL
+    type: "website",
+    images: [
+      {
+        url: "/openGraph.png", // 썸네일 이미지 URL
+        width: 1200,
+        height: 630,
+        alt: "Team Komp 썸네일",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
