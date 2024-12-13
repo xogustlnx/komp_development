@@ -12,14 +12,14 @@ const Home = () => {
       title: "음파음파",
       image: "/umpahMain.png",
       description: "웹 개발",
-      achievements: "하나 소셜벤처 유니버시티 전국 최우수 15팀 선정",
+      achievements: "하나 소셜 벤처 유니버시티 전국 최우수 15팀",
       slug: "eumpa-eumpa",
     },
     {
       title: "Komp",
       image: "/kompMain.png",
       description: "앱 개발 - 커뮤니티 앱",
-      achievements: "2024 gov-tech 아이디어 경진대회 전국 5위",
+      achievements: "2024 Gov-tech 창업 아이디어 전국 5위",
       slug: "komp",
     },
     {
@@ -36,17 +36,9 @@ const Home = () => {
       title: "무한한 개발 역량",
       description: [
         "앱, 웹, 플랫폼, 필터링, AI 등 모든 프로젝트를 완벽히 지원.",
-        "고객의 아이디어를 기술로 실현합니다.",
+        "고객이 상상하는 모든 아이디어를 기술로 실현.",
       ],
       icon: "/icons/puzzle.png",
-    },
-    {
-      title: "독창적인 웹사이트 설계",
-      description: [
-        "브랜드에 최적화된 맞춤형 디자인과 혁신적인 기능 제공.",
-        "단순 랜딩페이지를 넘어 독창적이고 유연한 구조 설계.",
-      ],
-      icon: "/icons/idea.png",
     },
     {
       title: "압도적인 속도",
@@ -63,6 +55,14 @@ const Home = () => {
         "대표들과 직접 소통해 빠르고 정확한 피드백 반영.",
       ],
       icon: "/icons/money.png",
+    },
+    {
+      title: "독창적인 웹사이트 설계",
+      description: [
+        "브랜드에 최적화된 맞춤형 디자인과 혁신적인 기능 제공.",
+        "단순 랜딩페이지를 넘어 독창적이고 유연한 구조 설계.",
+      ],
+      icon: "/icons/idea.png",
     },
   ];
 
@@ -90,8 +90,7 @@ const Home = () => {
           <p className="text-lg md:text-xl text-gray-200 font-light mb-24">
             우리는 <strong className="font-semibold">신속하고 정확하게</strong>{" "}
             당신이 원하는 결과를 만듭니다. <br />
-            아이디어를 실현하고 완벽한 솔루션을 제공하는 믿을 수 있는 개발
-            파트너입니다.
+            아이디어를 실현할 완벽한 솔루션을 제공하는 신뢰할 수 있는 개발 파트너입니다.
           </p>
 
           <Link href="#about">
@@ -117,16 +116,17 @@ const Home = () => {
             Team<span className="font-bold"> Komp</span>
           </h2>
           <p className="text-lg md:text-xl font-light text-center mb-2">
-            당신이 원하는 무엇이든 개발 가능한{" "}
+            우리는 당신이 원하는 모든 것을 개발할{" "}
             <span className="font-semibold text-main">
               두명의 카이스트 출신 개발자
             </span>
+            입니다.
           </p>
 
           <p className="text-lg md:text-xl font-light text-center mb-16">
-            대형 업체의 거품을 뺀,{" "}
+            대형 외주 업체의 거품을 뺀,{" "}
             <span className="font-semibold text-main">
-              투명하고 합리적인 외주 비용으로 서비스를 제공합니다.
+              투명하고 합리적인 비용으로 서비스를 제공합니다.
             </span>
           </p>
 
@@ -148,10 +148,10 @@ const Home = () => {
               image="/신태현.jpg"
               description={[
                 "경산과학고등학교 조기 졸업",
-                "KAIST 전산학과 재학",
-                "카이스트 개발동아리 SPARCS",
+                "KAIST 전산학부",
+                "KAIST SPARCS 개발 팀 소속",
                 "2024 Gov-tech 전국 창업 아이디어 대회 5위",
-                "카이스트 택시 탑승 서비스 개발",
+                "KAIST 택시 탑승 서비스 개발",
               ]}
             />
           </div>
@@ -211,9 +211,12 @@ const Home = () => {
         className="py-20 bg-black relative overflow-hidden md:h-screen"
       >
         <div className="container mx-auto px-6 justify-center flex flex-col items-center">
-          <h2 className="text-3xl font-bold text-white mb-32 text-center">
-            우리 팀의 <span className="text-orange-500">장점</span>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">
+            장점
           </h2>
+          <p className="text-lg md:text-xl font-light text-center mb-16">
+            무한한 역량, 압도적 속도, 그리고 합리적 비용
+          </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
             {advantages.map((advantage, index) => (
               <AdvantageCard

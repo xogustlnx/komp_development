@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto text-center space-y-6">
         {/* 로고 및 팀 이름 */}
         <div>
-          <h1 className="text-xl font-bold text-white">팀 Komp</h1>
+          <h1 className="text-xl font-bold text-white">Team Komp</h1>
           <p className="text-sm text-gray-400">
-            창의와 열정으로 미래를 설계합니다
+            당신의 상상을 실현할 최고의 개발 파트너
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             장점
           </Link>
           <Link href="/contact" className="hover:text-orange-500 transition">
-            연락
+            문의
           </Link>
         </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
 
         {/* 저작권 */}
         <p className="text-xs text-gray-500">
-          &copy; {new Date().getFullYear()} 팀 Komp. All rights reserved.
+          &copy; {new Date().getFullYear()} Team Komp. All rights reserved.
         </p>
       </div>
 
