@@ -237,7 +237,7 @@ const Home = () => {
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-blue-500 to-indigo-500 opacity-20 rounded-full blur-3xl"></div>
 
           {/* 제목 */}
-          <h2 className="text-4xl font-header text-center mb-12 relative z-10">
+          <h2 className="text-3xl font-header text-main mb-24 text-center font-bold relative z-10">
             문의하기
           </h2>
 
@@ -255,7 +255,8 @@ const Home = () => {
               <div className="mb-8">
                 <h3 className="text-2xl font-header mb-4">연락처 정보</h3>
                 <p className="font-body text-gray-300 mb-2">
-                  <strong className="text-white">이메일:</strong> komp@gmail.com
+                  <strong className="text-white">이메일:</strong>{" "}
+                  teamkompdev@gmail.com
                 </p>
                 <p className="font-body text-gray-300 mb-2">
                   <strong className="text-white">전화번호:</strong>{" "}

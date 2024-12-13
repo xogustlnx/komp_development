@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "@/lib/firebaseConfig";
 
 const ContactForm = () => {
@@ -90,7 +90,10 @@ const ContactForm = () => {
     e.preventDefault();
     if (validateStep2()) {
       try {
-        await addDoc(collection(db, "contacts"), formData); // 데이터 저장
+        await addDoc(collection(db, "contacts"), {
+          ...formData,
+          createdAt: serverTimestamp(), // 서버 시간 저장
+        });
         setIsSubmitted(true);
         setFormData({
           name: "",

@@ -40,8 +40,8 @@ const Header = () => {
           <Link href="/" className="hover:text-orange-500 transition">
             <Image
               src="/mainLogo.png"
-              width={100}
-              height={100}
+              width={64}
+              height={64}
               alt="Picture of the author"
             />
           </Link>
