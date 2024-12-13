@@ -10,6 +10,9 @@ export const metadata = {
   title: "팀 komp",
   description:
     " 아이디어를 실현하고 완벽한 솔루션을 제공하는 믿을 수 있는 개발 파트너",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
