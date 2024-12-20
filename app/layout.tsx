@@ -7,9 +7,8 @@ import Footer from "../components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Team Komp | 당신의 상상을 실현할 최고의 개발 파트너",
-  description:
-    "아이디어를 실현할 완벽한 솔루션을 제공하는 신뢰할 수 있는 개발 파트너",
+  title: "Team Komp | KAIST 출신 두 개발자의 신속하고 정확한 개발 외주 서비스",
+  description: "KAIST 출신 두 개발자의 신속하고 정확한 개발 외주 서비스",
   icons: {
     icon: "/favicon.png",
   },

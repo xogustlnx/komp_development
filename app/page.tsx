@@ -87,10 +87,8 @@ const Home = () => {
               Team Komp
             </span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 font-light mb-24">
-            우리는 <strong className="font-semibold">신속하고 정확하게</strong>{" "}
-            당신이 원하는 결과를 만듭니다. <br />
-            아이디어를 실현할 완벽한 솔루션을 제공하는 신뢰할 수 있는 개발 파트너입니다.
+          <p className="text-lg md:text-2xl text-gray-200 font-light mb-24">
+            KAIST 출신 두 개발자의 신속하고 정확한 개발 외주 서비스
           </p>
 
           <Link href="#about">
@@ -115,15 +113,14 @@ const Home = () => {
           <h2 className="text-4xl md:text-5xl font-header text-main font-bold text-center mb-10">
             Team<span className="font-bold"> Komp</span>
           </h2>
-          <p className="text-lg md:text-xl font-light text-center mb-2">
-            우리는 당신이 원하는 모든 것을 개발할{" "}
+          <p className="text-md md:text-lg font-light text-center mb-2">
+            당신이 원하는 모든 것을 개발할{" "}
             <span className="font-semibold text-main">
-              두명의 카이스트 출신 개발자
+              KAIST 출신 외주 개발 팀
             </span>
-            입니다.
           </p>
 
-          <p className="text-lg md:text-xl font-light text-center mb-16">
+          <p className="text-md md:text-lg font-light text-center mb-16">
             대형 외주 업체의 거품을 뺀,{" "}
             <span className="font-semibold text-main">
               투명하고 합리적인 비용으로 서비스를 제공합니다.

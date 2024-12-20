@@ -45,7 +45,7 @@ const DeveloperCard: React.FC<DeveloperCardProps> = ({
 
   return (
     <motion.div
-      className="relative flex flex-col items-center text-center bg-gradient-to-b from-zinc-900 to-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow h-[520px] w-[380px] pt-12 p-6"
+      className="relative flex flex-col items-center text-center bg-gradient-to-b from-zinc-900 to-black rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow h-[520px] w-[380px] pt-12 md:p-6"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
