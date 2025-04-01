@@ -4,7 +4,11 @@ import { Inter } from "next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+// If loading a variable font, you don't need to specify the font weight
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Team Komp | KAIST 출신 두 개발자의 신속하고 정확한 개발 외주 서비스",
@@ -34,11 +38,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko">
+    <html lang="ko" className={inter.className}>
       <body className={` flex flex-col min-h-screen`}>
-        <Header />
         <main className="flex-grow">{children}</main>
-        <Footer />
       </body>
     </html>
   );

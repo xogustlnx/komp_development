@@ -41,7 +41,6 @@
 } */
 
 body {
-  font-family: "NanumSquareNeo", sans-serif;
   background-color: var(--background);
   white-space: pre-wrap;
 }
