@@ -140,6 +140,7 @@ export default function PortfolioPage() {
               new Date(`${a.date}-01`).getTime()
           )
           .map((project, idx) => (
+            //@ts-ignore
             <PortfolioCard key={idx} {...project} />
           ))}
       </div>
