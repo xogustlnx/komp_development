@@ -23,17 +23,17 @@ const dummyProjects = [
     name: "K-STAX",
     types: ["AI", "Web"],
     descriptions: [
-      "AI 딥러닝 기반 경추 X-ray 마킹 프로그램",
+      "AI 딥러닝 기반 경추 X-ray 마킹 서비스",
       "정확도 90% 이상 달성, 상용화 추진중",
-      "X-ray 사진 방향 자동 정렬,",
+      "X-ray 사진 방향 자동 정렬",
       "AI 기반 OL/OPL/APL 자동 라벨링",
-      " GeorgeLine 드로잉 & Cobb’s angle 계산",
+      "GeorgeLine 드로잉 & Cobb’s angle 계산",
     ],
     stacks: ["Pytorch", "Deep Learning", "Next.js", "Node.js"],
   },
   {
     imageUrl: "portfolio/wineDiary.png",
-    date: "2024-08",
+    date: "2025-01",
     name: "WINE DIARY",
     types: ["App"],
     descriptions: [
@@ -66,7 +66,7 @@ const dummyProjects = [
     name: "CAREER AI",
     types: ["Web", "AI"],
     descriptions: [
-      "AI 기반 연애 상담 앱 개발",
+      "AI 기반 압박 모의 면접 서비스",
       "정식 출시 후 운영중",
       "자기소개서 기반 가상 압박 면접 기능",
       "사용자 답변 기반 질문 자동 생성 기능",
@@ -77,11 +77,11 @@ const dummyProjects = [
   },
   {
     imageUrl: "portfolio/connectAI.png",
-    date: "2024-11", // 날짜 미정
+    date: "2024-10", // 날짜 미정
     name: "CONNECT AI",
     types: ["App", "AI"],
     descriptions: [
-      "AI 기반 연애 상담 앱 개발",
+      "AI 기반 연애 상담 앱",
       "정식 출시 후 운영중, 유저수 2천명 이상",
       "이미지 인식 및 자동 응답 생성 기능",
       "커스텀 고민 상담 AI 기능",
@@ -115,7 +115,7 @@ export default function PortfolioPage() {
       : dummyProjects.filter((p) => p.types.includes(activeTab));
 
   return (
-    <main className="min-h-screen bg-black text-white px-12 py-14">
+    <main className="min-h-screen bg-black text-white px-10 py-10 md:px-12 md:py-14">
       <h1 className="text-2xl  mb-12">Portfolio</h1>
 
       <div className="flex gap-6 text-lg mb-12">
@@ -145,15 +145,15 @@ export default function PortfolioPage() {
           ))}
       </div>
 
-      <footer className="mt-16 flex gap-6 text-sm">
+      <footer className="mt-12 flex space-x-6 text-sm">
         <a href="/" className="underline hover:text-gray-300">
           Home
         </a>
-        <a href="/talk" className="underline hover:text-gray-300">
-          Talk
+        <a href="/about" className="underline hover:text-gray-300">
+          About
         </a>
-        <a href="/cost" className="underline hover:text-gray-300">
-          Cost
+        <a href="/contact" className="underline hover:text-gray-300">
+          Contact
         </a>
       </footer>
     </main>

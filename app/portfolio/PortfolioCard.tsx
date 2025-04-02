@@ -19,7 +19,6 @@ export default function PortfolioCard({
   descriptions,
   stacks,
 }: PortfolioCardProps) {
-  // 파스텔 톤 색상 팔레트 매핑
   const typeColors: Record<string, string> = {
     App: "bg-pink-200 ",
     Web: "bg-blue-200 ",
@@ -28,10 +27,10 @@ export default function PortfolioCard({
   };
 
   return (
-    <div className="flex w-full mb-6">
+    <div className="flex flex-col md:flex-row w-full mb-6">
       {/* 이미지 */}
       <div
-        className="w-1/3 aspect-square bg-zinc-950 p-16"
+        className="w-full md:w-1/3 aspect-square bg-[#111] p-10 md:p-16"
         style={{ minHeight: 200 }}
       >
         {imageUrl ? (
@@ -44,15 +43,15 @@ export default function PortfolioCard({
       </div>
 
       {/* 내용 */}
-      <div className="w-2/3 px-8 text-white">
+      <div className="w-full md:w-2/3 px-4 md:px-8 py-6 md:py-0 text-white">
         {/* 날짜 */}
         <p className="text-sm mb-2">{date}</p>
 
         {/* 제목 */}
         <h2 className="text-xl font-semibold mb-2">{name}</h2>
 
-        {/* 유형 (여러 타입) */}
-        <div className="flex gap-2 mb-4 ">
+        {/* 유형 */}
+        <div className="flex gap-2 mb-4 flex-wrap">
           {types.map((t, index) => (
             <span
               key={index}
