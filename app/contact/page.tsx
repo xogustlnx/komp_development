@@ -78,12 +78,12 @@ export default function ContactPage() {
         <p>
           카카오톡 문의:{" "}
           <a
-            href="https://open.kakao.com/o/smQUT5oh"
+            href="https://open.kakao.com/o/s53LJ6oh"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-gray-300"
           >
-            https://open.kakao.com/o/smQUT5oh
+            https://open.kakao.com/o/s53LJ6oh
           </a>
           <br />
           E-mail: teamkompdev@gmail.com
