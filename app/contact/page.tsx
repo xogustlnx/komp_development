@@ -76,7 +76,16 @@ export default function ContactPage() {
           카카오톡으로 바로 문의하시거나, 간단한 견적을 이메일로 받아보실 수도 있습니다.
         </p>
         <p>
-          카카오톡 문의: asdf.com <br />
+          카카오톡 문의:{" "}
+          <a
+            href="https://open.kakao.com/o/smQUT5oh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-gray-300"
+          >
+            https://open.kakao.com/o/smQUT5oh
+          </a>
+          <br />
           E-mail: teamkompdev@gmail.com
         </p>
       </div>
