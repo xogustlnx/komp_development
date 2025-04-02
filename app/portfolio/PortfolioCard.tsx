@@ -30,7 +30,7 @@ export default function PortfolioCard({
     <div className="flex flex-col md:flex-row w-full mb-6">
       {/* 이미지 */}
       <div
-        className="w-full md:w-1/3 aspect-square bg-[#111] p-10 md:p-16"
+        className="w-full md:w-1/3 aspect-square bg-[#111] p-10 md:p-16 flex items-center justify-center"
         style={{ minHeight: 200 }}
       >
         {imageUrl ? (

@@ -48,7 +48,7 @@ export default function AboutPage() {
         </div>
 
         <p className="text-sm">
-          팀콤프의 실제 작업물이 궁금하다면, {" "}
+          팀콤프의 실제 작업물이 궁금하다면,{" "}
           <a href="/portfolio" className="underline hover:text-gray-300">
             Portfolio
           </a>
