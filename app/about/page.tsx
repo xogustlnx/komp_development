@@ -7,7 +7,7 @@ export default function AboutPage() {
           저희는 KAIST를 졸업한 두 청년이 설립한 외주 개발사입니다.
         </p>
         <p className="text-sm pb-1 leading-[1.8]">
-          웹사이트, 앱, AI, 데이터 분석 등 다양한 분야에서 빠르고 수준 높은 개발 솔루션을 제공하며,
+          웹, 앱, AI, 데이터 분석 등 다양한 분야에서 빠르고 수준 높은 개발 솔루션을 제공하며,
           <br />
           고객의 어떤 아이디어라도 기술로 실현할 수 있는 팀입니다.
         </p>
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <ul className="list-disc list-inside space-y-2 text-xs">
             <li>KAIST 전산학부 3년 조기졸업</li>
             <li>KAIST AI 데이터마이닝 연구실 석사 과정</li>
-            <li>2023 KT AI 해커톤 1위 외 다수 수상 이력</li>
+            <li>2023 KT AI 해커톤 1위 외 수상 이력 다수</li>
             <li>2022 한국소프트웨어학회 AI 분야 최우수논문상</li>
           </ul>
         </div>
