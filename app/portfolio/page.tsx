@@ -115,7 +115,7 @@ export default function PortfolioPage() {
       : dummyProjects.filter((p) => p.types.includes(activeTab));
 
   return (
-    <main className="min-h-screen bg-black text-white px-10 py-10 md:px-12 md:py-14">
+    <main className="min-h-screen bg-black text-white px-8 py-10 md:px-12 md:py-14">
       <h1 className="text-2xl  mb-12">Portfolio</h1>
 
       <div className="flex gap-6 text-lg mb-12">
