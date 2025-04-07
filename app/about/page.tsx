@@ -4,12 +4,10 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h1 className="text-2xl mb-8">About Team Komp.</h1>
         <p className="text-sm pb-1 leading-[1.8]">
-          저희는 KAIST를 졸업한 두 청년이 설립한 외주 개발사입니다.
+          KAIST를 졸업한 두 청년이 설립한 외주 개발사, Team Komp 입니다.
         </p>
         <p className="text-sm pb-1 leading-[1.8]">
-          웹, 앱, AI, 데이터 분석 등 다양한 분야에서 빠르고 수준 높은 개발 솔루션을 제공하며,
-          <br />
-          고객의 어떤 아이디어라도 기술로 실현할 수 있는 팀입니다.
+          저희는 웹, 앱, AI 등 고객의 어떤 니즈라도 빠르고 영리하게 실현할 수 있는 팀입니다.
         </p>
         <p className="text-sm pb-1 leading-[1.8]">
           돈 받고 개발만 하는 딱딱한 외주 개발사가 아닌,
@@ -17,7 +15,7 @@ export default function AboutPage() {
           그 이상의 파트너로 기획과 성장을 돕는 팀이 되기를 지향합니다.
         </p>
         <p className="text-sm">
-          팀콤프와 파트너가 되고 싶다면,{" "}
+          저희와 파트너가 되고 싶다면,{" "}
           <a href="/contact" className="underline hover:text-gray-300">
             Contact
           </a>
@@ -48,7 +46,7 @@ export default function AboutPage() {
         </div>
 
         <p className="text-sm">
-          팀콤프의 실제 작업물이 궁금하다면,{" "}
+          저희의 실제 작업물이 궁금하다면,{" "}
           <a href="/portfolio" className="underline hover:text-gray-300">
             Portfolio
           </a>
