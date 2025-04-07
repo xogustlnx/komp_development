@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-black text-white px-10 py-10 md:px-12 md:py-14">
+    <main className="min-h-screen bg-black text-white px-8 py-10 md:px-12 md:py-14">
       <section className="space-y-4">
         <h1 className="text-2xl mb-8">About Team Komp.</h1>
         <p className="text-sm pb-1 leading-[1.8]">
