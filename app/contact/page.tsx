@@ -65,15 +65,13 @@ export default function ContactPage() {
         <p>저희와 이야기를 나누고 싶으시면 언제든 연락주세요.</p>
         <p>
           저희와 함께하는 방식은 두 가지 입니다. <br />
-          <strong>일반 외주</strong>: 자체 자금이 충분하거나 정부 지원 사업 선정자의 경우,
-          합리적인 비용으로 개발을 진행합니다. <br />
-          <strong>지분 외주</strong>: 적은 비용으로 개발을 진행하는 대신
-          지분을 받고 팀으로 함께합니다.
+          <strong>일반 외주</strong>: 어느 정도 예산이 준비되어 있다면, 명확한 조건 아래 빠르고 정밀하게 개발해드립니다.<br />
+          <strong>지분 외주</strong>: 우리는 함께할 팀을 찾기도 합니다. 당장 돈이 부족하다고 걱정하지 마세요.
         </p>
         <p>
           아직 아이디어만 있는 단계라도 괜찮습니다. <br />
-          저희가 아이디어 구체화나 정부 지원 사업 준비를 도와드립니다. <br />
-          카카오톡으로 바로 문의하시거나, 간단한 견적을 이메일로 받아보실 수도 있습니다.
+          카카오톡으로 바로 문의하시거나,<br />
+          간단한 상담을 이메일로 받아보세요.
         </p>
         <p>
           카카오톡 문의:{" "}
@@ -91,10 +89,11 @@ export default function ContactPage() {
       </div>
 
       <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-4">견적 문의</h2>
+        <h2 className="text-xl font-semibold mb-4">상담 문의</h2>
         <p className="text-sm pb-1 leading-[1.8] mb-6">
-          개발을 원하시는 서비스/페이지를 소개해주세요.<br />
-          문의 내용에 대한 견적서를 이메일로 보내드립니다.
+          아직 구체적인 기획이 없더라도 괜찮습니다.<br />
+          원하시는 방향이나 생각을 간단히 적어주시면<br />
+          저희가 참고하여 대략적인 안내를 드립니다.
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4 max-w-md relative z-10">
@@ -102,7 +101,7 @@ export default function ContactPage() {
             id="email"
             type="email"
             placeholder="이메일"
-            className="w-full bg-black border px-3 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full bg-black border rounded-sm px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-white"
             value={formData.email}
             onChange={handleChange}
             required
@@ -112,7 +111,7 @@ export default function ContactPage() {
             id="company"
             type="text"
             placeholder="회사명/직함"
-            className="w-full bg-black border px-3 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full bg-black border rounded-sm px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-white"
             value={formData.company}
             onChange={handleChange}
           />
@@ -122,7 +121,7 @@ export default function ContactPage() {
               id="outsourcingType"
               value={formData.outsourcingType}
               onChange={handleChange}
-              className="w-full bg-black border px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-purple-500 appearance-none"
+              className="w-full bg-black border rounded-sm px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-white appearance-none"
             >
               <option value="">외주유형</option>
               <option value="앱개발">앱개발</option>
@@ -134,7 +133,7 @@ export default function ContactPage() {
               <option value="코드 보수">코드 보수</option>
               <option value="기타">기타</option>
             </select>
-            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400">
               <SlArrowDown />
             </span>
           </div>
@@ -144,7 +143,7 @@ export default function ContactPage() {
               id="serviceType"
               value={formData.serviceType}
               onChange={handleChange}
-              className="w-full bg-black border px-3 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-purple-500 appearance-none"
+              className="w-full bg-black border rounded-sm px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-white appearance-none"
             >
               <option value="">서비스유형</option>
               <option value="플랫폼">플랫폼</option>
@@ -153,7 +152,7 @@ export default function ContactPage() {
               <option value="쇼핑">쇼핑몰</option>
               <option value="기타">기타</option>
             </select>
-            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-gray-400">
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400">
               <SlArrowDown />
             </span>
           </div>
@@ -162,7 +161,7 @@ export default function ContactPage() {
             id="message"
             rows={6}
             placeholder="문의 내용"
-            className="w-full bg-black border px-3 py-2 text-sm text-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full bg-black border rounded-sm px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-white"
             value={formData.message}
             onChange={handleChange}
             required
