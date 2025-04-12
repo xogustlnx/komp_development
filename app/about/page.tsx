@@ -14,7 +14,7 @@ export default function AboutPage() {
         <p className="text-sm pb-1 leading-[1.8]">
           돈 받고 개발만 하는 딱딱한 외주 개발사가 아닌,
           <br />
-          그 이상의 파트너가 될 수 있기를 지향합니다.
+          고객의 니즈 그 이상을 실현하는 파트너가 되기를 지향합니다.
         </p>
         <p className="text-sm">
           저희와 파트너가 되고 싶다면,{" "}
