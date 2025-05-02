@@ -6,7 +6,7 @@ interface PortfolioCardProps {
   imageUrl?: string;
   date: string; // e.g., '2024-08'
   name: string; // e.g., 'WINE DIARY'
-  types: ("App" | "Web" | "AI" | "Design")[];
+  types: ("App" | "Web" | "AI" | "Design" | "Software")[];
   descriptions?: string[];
   stacks: string[];
 }
@@ -24,6 +24,7 @@ export default function PortfolioCard({
     Web: "bg-blue-200 ",
     AI: "bg-green-200 ",
     Design: "bg-purple-200 ",
+    Software: "bg-yellow-200",
   };
 
   return (
