@@ -102,6 +102,19 @@ const dummyProjects = [
     ],
     stacks: ["Next.js", "Firebase"],
   },
+  {
+    imageUrl: "portfolio/clify.png",
+    date: "2025-04", // 날짜 미정
+    name: "Clify FAV",
+    types: ["App"],
+    descriptions: [
+      "AI 심리 상담 서비스 인터페이스 제작",
+      "영상 기반 이미지 캡쳐 및 녹음 분리",
+      "AI 모델용 데이터 가공 및 처리",
+      "결과값 분석 및 가시화",
+    ],
+    stacks: ["Flutter"],
+  },
 ];
 
 const tabs = ["All", "App", "Web", "AI"];

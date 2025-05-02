@@ -4,11 +4,13 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h1 className="text-2xl mb-8">About Team Komp.</h1>
         <p className="text-sm pb-1 leading-[1.8]">
-          KAIST를 졸업한 두 청년이 설립한 외주 개발사,<br />
+          KAIST를 졸업한 두 청년이 설립한 외주 개발사,
+          <br />
           Team Komp 입니다.
         </p>
         <p className="text-sm pb-1 leading-[1.8]">
-          저희는 웹, 앱, AI 등 고객의 어떤 니즈라도<br />
+          저희는 웹, 앱, AI 등 고객의 어떤 니즈라도
+          <br />
           빠르고 영리하게 실현할 수 있는 팀입니다.
         </p>
         <p className="text-sm pb-1 leading-[1.8]">
@@ -31,6 +33,7 @@ export default function AboutPage() {
         <div>
           <h3 className="mb-3 text-sm">공동대표 서영진</h3>
           <ul className="list-disc list-inside space-y-2 text-xs">
+            <li>한국과학영재학교 졸업</li>
             <li>KAIST 전산학부 3년 조기졸업</li>
             <li>KAIST AI 데이터마이닝 연구실 석사 과정</li>
             <li>2023 KT AI 해커톤 1위 외 수상 이력 다수</li>
@@ -41,7 +44,8 @@ export default function AboutPage() {
         <div>
           <h3 className="mb-3 mt-6 text-sm">공동대표 신태현</h3>
           <ul className="list-disc list-inside text-xs space-y-2 mb-6">
-            <li>KAIST 전산학부 / 산업디자인과 재학</li>
+            <li>경산과학고등학교 2년 조기졸업</li>
+            <li>KAIST 전산학부 / 산업디자인과 전공</li>
             <li>KAIST 개발 팀 Sparcs 소속</li>
             <li>앱/웹 풀스택 개발 경험 다수</li>
           </ul>
