@@ -70,7 +70,7 @@ export default function ContactPage() {
         </p>
         <p>
           카카오톡으로 바로 문의하시거나,<br />
-          간단한 상담을 이메일로 받아보세요.
+          이메일로 연락주시면 빠르게 답장드리겠습니다.
         </p>
         <p>
           카카오톡 문의:{" "}
@@ -87,7 +87,7 @@ export default function ContactPage() {
         </p>
       </div>
 
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <h2 className="text-xl font-semibold mb-4">상담 문의</h2>
         <p className="text-sm pb-1 leading-[1.8] mb-6">
           아직 구체적인 기획이 없더라도 괜찮습니다.<br />
@@ -167,8 +167,7 @@ export default function ContactPage() {
           />
 
           {error && <p className="text-red-400 text-sm">{error}</p>}
-
-          {/* 오른쪽 정렬된 버튼 */}
+}
           <div className="flex justify-end">
             <button
               type="submit"
@@ -178,7 +177,7 @@ export default function ContactPage() {
             </button>
           </div>
         </form>
-      </div>
+      </div> */}
 
       {/* 하단 링크 */}
       <footer className="mt-12 flex space-x-6 text-sm">
