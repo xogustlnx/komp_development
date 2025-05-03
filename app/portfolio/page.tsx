@@ -21,7 +21,7 @@ const dummyProjects = [
     imageUrl: "portfolio/kstax.png",
     date: "2025-03", // 날짜 미정
     name: "K-STAX",
-    types: ["AI", "Web"],
+    types: ["AI", "Software"],
     descriptions: [
       "AI 딥러닝 기반 경추 X-ray 마킹 서비스",
       "정확도 90% 이상 달성, 상용화 추진중",
@@ -102,19 +102,19 @@ const dummyProjects = [
     ],
     stacks: ["Next.js", "Firebase"],
   },
-  {
-    imageUrl: "portfolio/hani.png",
-    date: "2025-04", // 날짜 미정
-    name: "HANI-HELPER",
-    types: ["Software", "AI"],
-    descriptions: [
-      "한의사용 차트 자동화 툴 제작",
-      "양/한의학 코드 트리 구조화 및 클라우드 저장",
-      "LLM 기반 자동 코드 선택 및 SOAP 차트 구조화",
-      "치료 항목에 맞는 근골격계 검사 자동 추천 및 템플릿화",
-    ],
-    stacks: ["Next.js", "Electron", "Firebase", "OpenAI API"],
-  },
+  // {
+  //   imageUrl: "portfolio/hani.png",
+  //   date: "2025-04", // 날짜 미정
+  //   name: "HANI-HELPER",
+  //   types: ["Software", "AI"],
+  //   descriptions: [
+  //     "한의사용 차트 자동화 툴 제작",
+  //     "양/한의학 코드 트리 구조화 및 클라우드 저장",
+  //     "LLM 기반 자동 코드 선택 및 SOAP 차트 구조화",
+  //     "치료 항목에 맞는 근골격계 검사 자동 추천 및 템플릿화",
+  //   ],
+  //   stacks: ["Next.js", "Electron", "Firebase", "OpenAI API"],
+  // },
   {
     imageUrl: "portfolio/clify.png",
     date: "2025-04", // 날짜 미정
