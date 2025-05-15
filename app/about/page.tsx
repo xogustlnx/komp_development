@@ -36,7 +36,8 @@ export default function AboutPage() {
             <li>한국과학영재학교 졸업</li>
             <li>KAIST 전산학부 3년 조기졸업</li>
             <li>KAIST AI 데이터마이닝 연구실 석사</li>
-            <li>2023 KT AI 해커톤 1위 외 수상 이력 다수</li>
+            <li>2023 KT AI 해커톤 1위</li>
+            <li>2022 한국고용정보원 AI 해커톤 4위</li>
             <li>2022 한국소프트웨어학회 AI 분야 최우수논문상</li>
           </ul>
         </div>
@@ -47,8 +48,8 @@ export default function AboutPage() {
             <li>경산과학고등학교 2년 조기졸업</li>
             <li>KAIST 전산학부 / 산업디자인과 전공</li>
             <li>KAIST 개발 팀 Sparcs 소속</li>
-            <li>앱/웹 풀스택 개발 경험 다수</li>
-            <li>AI 기반 서비스 개발 경험 다수</li>
+            <li>20개 이상의 앱/웹 서비스 풀스택 개발 경험</li>
+            <li>10개 이상의 AI 기반 서비스 개발 경험</li>
           </ul>
         </div>
 
