@@ -48,8 +48,8 @@ export default function AboutPage() {
             <li>경산과학고등학교 2년 조기졸업</li>
             <li>KAIST 전산학부 / 산업디자인과 전공</li>
             <li>KAIST 개발 팀 Sparcs 소속</li>
-            <li>20개 이상의 앱/웹 서비스 풀스택 개발 경험</li>
-            <li>10개 이상의 AI 기반 서비스 개발 경험</li>
+            <li>20개 이상의 앱/웹 서비스 풀스택 개발</li>
+            <li>10개 이상의 AI 기반 서비스 개발</li>
           </ul>
         </div>
 
