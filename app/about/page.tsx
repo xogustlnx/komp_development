@@ -4,7 +4,7 @@ export default function AboutPage() {
       <section className="space-y-4">
         <h1 className="text-2xl mb-8">About Team Komp.</h1>
         <p className="text-sm pb-1 leading-[1.8]">
-          KAIST를 졸업한 두 청년이 설립한 외주 개발사,
+          KAIST 출신의 두 젊은 개발자가 이끄는 개발 에이전시,
           <br />
           Team Komp 입니다.
         </p>

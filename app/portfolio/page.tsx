@@ -19,17 +19,31 @@ const dummyProjects = [
   },
   {
     imageUrl: "portfolio/kstax.png",
-    date: "2025-03", // 날짜 미정
+    date: "2025-06", // 날짜 미정
     name: "K-STAX",
-    types: ["AI", "Software"],
+    types: ["Software", "AI"],
     descriptions: [
-      "AI 딥러닝 기반 경추 X-ray 마킹 서비스",
-      "정확도 90% 이상 달성, 상용화 추진중",
-      "X-ray 사진 방향 자동 정렬",
-      "AI 기반 OL/OPL/APL 자동 라벨링",
-      "GeorgeLine 드로잉 & Cobb’s angle 계산",
+      "AI 기반 척추 X-ray 자동 분석 프로그램",
+      "경추, 흉추, 요추 딥러닝 모델 개발 완료, 상용화 추진 중",
+      "X-ray 방향 자동 정렬 기능",
+      "자동 척추 각도 계산 및 라인 드로잉 기능",
+      "환자의 X-ray 내역 확인 및 4분할 비교 뷰 기능",
     ],
     stacks: ["Pytorch", "Deep Learning", "Next.js", "Node.js"],
+  },
+  {
+    imageUrl: "portfolio/haniagent.png",
+    date: "2025-05", // 날짜 미정
+    name: "HANI AGENT",
+    types: ["Software", "AI", "Web"],
+    descriptions: [
+      "한의원 차트 AI 자동 작성 소프트웨어",
+      "한의학 음성 인식 및 자동 차팅 모델 개발 완료, 상용화 추진 중",
+      "Whisper AI 모델 기반 음성 인식(STT) 및 대화 구조화",
+      "의료 SOAP 형식에 맞춘 자동 차팅 및 복사",
+      "KCD/U 코드 데이터베이스화 및 자동 추천",
+    ],
+    stacks: ["Next.js", "Electron", "Firebase", "OpenAI API"],
   },
   {
     imageUrl: "portfolio/wineDiary.png",
@@ -121,10 +135,10 @@ const dummyProjects = [
     name: "CLIFY FAV",
     types: ["App"],
     descriptions: [
-      "AI 심리 상담 서비스 인터페이스 제작",
-      "영상 기반 이미지 캡쳐 및 녹음 분리",
+      "AI 심리 상담 서비스 UI UX 설계 및 AI API 연동",
+      "촬영한 영상 기반 이미지 자동 추출 및 녹음 분리",
       "AI 모델용 데이터 가공 및 처리",
-      "결과값 분석 및 가시화",
+      "결과값 분석 및 시각화 UI 제작",
     ],
     stacks: ["Flutter"],
   },
