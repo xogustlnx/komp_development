@@ -24,7 +24,7 @@ export default function PortfolioCard({
     Web: "bg-blue-200 ",
     AI: "bg-green-200 ",
     Design: "bg-purple-200 ",
-    Software: "bg-yellow-200",
+    Software: "bg-red-200",
   };
 
   return (
