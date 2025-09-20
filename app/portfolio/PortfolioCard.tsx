@@ -5,6 +5,7 @@ import React from "react";
 interface PortfolioCardProps {
   imageUrl?: string;
   date: string; // e.g., '2024-08'
+  endDate: string; // e.g., '2024-08' or '' for ongoing
   name: string; // e.g., 'WINE DIARY'
   types: ("App" | "Web" | "AI" | "Design" | "Software")[];
   descriptions?: string[];
@@ -14,6 +15,7 @@ interface PortfolioCardProps {
 export default function PortfolioCard({
   imageUrl,
   date,
+  endDate,
   name,
   types,
   descriptions,
@@ -25,6 +27,17 @@ export default function PortfolioCard({
     AI: "bg-green-200 ",
     Design: "bg-purple-200 ",
     Software: "bg-red-200",
+  };
+
+  // 날짜 표시 로직
+  const formatDateRange = () => {
+    if (endDate === "") {
+      // 현재 진행중
+      return `${date} - 현재`;
+    } else {
+      // 완료된 프로젝트 (같은 달이든 다른 달이든 date만 표시)
+      return date;
+    }
   };
 
   return (
@@ -46,7 +59,7 @@ export default function PortfolioCard({
       {/* 내용 */}
       <div className="w-full md:w-2/3 px-4 md:px-8 py-6 md:py-0 text-white">
         {/* 날짜 */}
-        <p className="text-sm mb-2">{date}</p>
+        <p className="text-sm mb-2">{formatDateRange()}</p>
 
         {/* 제목 */}
         <h2 className="text-xl font-semibold mb-2">{name}</h2>
